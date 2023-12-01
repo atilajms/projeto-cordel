@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding-top: 20px;
+}
+
+header h1, aside {
+    color: white;
+    text-align: center;   
+}
+
+h1 {
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+header aside {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+main {
+    font-family: 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    margin-top: 28px;
+    font-size: 1.3em;
+}
+
+section {
+    margin-left: 0px;
+    padding: 40px 0px;
+}
+
+.estrofe {
+    margin-left: 50px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.imagem {
+    background-color: #00000098;
+    color: white;
+}
+
+#tres {
+    background: #000000 url("imagens/estrofe3-arco-iris-original.jpg") bottom center / cover no-repeat fixed;
+    width: 100%;
+    
+}
+
+#cinco {
+    background: black url("imagens/estrofe5-primavera-original.jpg") center center / cover no-repeat fixed;
+    width: 100%;
+}
