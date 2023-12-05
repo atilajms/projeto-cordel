@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -31,17 +29,19 @@ header aside {
 
 main {
     font-family: 'Segoe UI', 'Geneva', Verdana, sans-serif;
-    margin-top: 28px;
+    margin-top: 10px;
     font-size: 1.3em;
+    line-height: 1.6em;
 }
 
 section {
     margin-left: 0px;
-    padding: 40px 0px;
+    padding: 5vh 0px;
 }
 
 .estrofe {
-    margin-left: 40px;
+    margin-left: 4vw;
+    margin-right: 4vw;
     padding: 10px;
     max-width: 400px;
 }
@@ -49,6 +49,10 @@ section {
 .imagem {
     background-color: #00000098;
     color: white;
+}
+
+#dois {
+    margin-top: -50px;
 }
 
 #tres {
